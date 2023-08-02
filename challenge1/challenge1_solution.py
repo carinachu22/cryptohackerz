@@ -1,4 +1,4 @@
-## Task: To find the original message m given m'(modified_plaintext),c (original_cipher), c'(modified_cipher)
+## Task: To find the original plaintext m given m'(modified_plaintext),c (original_cipher), c'(modified_cipher)
 
 # Given Information
 modified_plaintext = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Find the URL'
@@ -14,12 +14,12 @@ def XOR(a, b):
 
 # Solution 1 
 mask = XOR(original_cipher, modified_cipher)
-original_message = XOR(mask, modified_plaintext)
-original_message = original_message.decode()
-print(original_message)
+original_plaintext_1 = XOR(mask, modified_plaintext)
+original_plaintext_1 = original_plaintext_1.decode()
+print(original_plaintext_1)
 
 # Solution 2 
 k = XOR(modified_plaintext, modified_cipher)
-message = XOR(original_cipher, k)
-message = message.decode()
-print(message)
+original_plaintext_2 = XOR(original_cipher, k)
+original_plaintext_2 = original_plaintext_2.decode()
+print(original_plaintext_2)

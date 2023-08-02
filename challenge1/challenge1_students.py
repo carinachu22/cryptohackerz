@@ -1,9 +1,10 @@
 
-## Task: To find the original message m given m'(modified_plaintext),c (original_cipher), c'(modified_cipher)
+## Task: To find the original plaintext m given m'(modified_plaintext), c (original_cipher), c'(modified_cipher)
 
 """
-Hint: Modified plaintext (m’) comes from the original message (m) encrypted with an OTP (k), but you may or may not need to find the 
-OTP (k) to find the original message (m). XOR operations are useful. The original message (m) is a url that can be used for challenge 2.
+Hint: Modified plaintext (m’) is modified from the original plaintext (m) through a process that involves an OTP (k), but you may or may 
+not need to find the OTP (k) to find the original plaintext (m). XOR operations are useful. The original message (m) is a url that can be 
+used for challenge 2.
 """
 
 # Given Information
