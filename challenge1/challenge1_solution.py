@@ -1,4 +1,5 @@
-## Task: To find the original plaintext m given m'(modified_plaintext),c (original_cipher), c'(modified_cipher)
+## Task: To find the original plaintext m given m'(modified_plaintext), c (original_cipher), c'(modified_cipher)
+## Solution: Either solution 1 or solution 2 will give the correct original plaintext (m), which is a url used for challenge 2
 
 # Given Information
 modified_plaintext = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Find the URL'
