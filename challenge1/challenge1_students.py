@@ -3,7 +3,7 @@
 
 """
 Hint: Modified plaintext (m’) is modified from the original plaintext (m) through a process that involves an OTP (k), but you may or may 
-not need to find the OTP (k) to find the original plaintext (m). XOR operations are useful. The original message (m) is a url that can be 
+not need to find the OTP (k) to find the original plaintext (m). XOR operations are useful. The original plaintext (m) is a url that can be 
 used for challenge 2.
 """
 
