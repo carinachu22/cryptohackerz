@@ -35,6 +35,6 @@ Damian realizes that someone who can only spell a handful of words can also only
 2. Using the private key d, find the flag (which is of the format fcs{xxxxxx})<br />
 
 <h3><b>Given:</b></h3>
-From Challenge 2: n e 
+From Challenge 2: n e  <br/>
 Encrypted message: AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA <br/>
 Example Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
