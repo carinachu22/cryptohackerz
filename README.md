@@ -24,3 +24,17 @@ Even more confused, Damian opened the letter to reveal some undecipherable words
 ## Challenge 2
 
 ## Challenge 3 
+<h3><b>Story:</b></h3>
+Woohoo! Damian has successfully solved the second challenge as well…only to find out there’s a third challenge? He finds that the solution from the second challenge is an encrypted message. This has to be the last challenge, hopefully. 
+
+Damian realizes that someone who can only spell a handful of words can also only count until 3 digits. And that they wouldn’t be proficient with crafting RSA encryption. With this knowledge, can you crack the private key d?
+
+
+<h3><b>Task:</b></h3>
+1. Find the private key d. <br />
+2. Using the private key d, find the flag (which is of the format fcs{xxxxxx})<br />
+
+<h3><b>Given:</b></h3>
+From Challenge 2: n e 
+Encrypted message: AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA <br/>
+Example Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
