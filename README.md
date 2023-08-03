@@ -22,6 +22,20 @@ Even more confused, Damian opened the letter to reveal some undecipherable words
 ## Challenge 1
 
 ## Challenge 2
+<h3><b>Story:</b></h3>
+Damian successfully solved the 1st challenge, but he is puzzled by its solution. He sees that there is a second challenge as well. Seems like the solution for Challenge 1 is linked to Challenge 2. He finds a message for Challenge 2 but there is ink on the key. Luckily, Damian knows that Anya cannot spell many things, he tries to find the key
+
+<h3><b>Task:</b></h3>
+1. Figure out what kind of cipher it is <br />
+2. Find the key <br />
+3. Decrypt the ciphertext
+
+<h3><b>Given:</b></h3>
+1. Hint from Challenge 1 <br />
+2. Key: ??? <br />
+3. Cipher: V <br />
+4. Ciphertext: NCQXMIF GBVT HYDBQFBG DCQT <br />
+
 
 ## Challenge 3 
 <h3><b>Story:</b></h3>
