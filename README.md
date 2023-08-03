@@ -51,4 +51,4 @@ Damian realizes that someone who can only spell a handful of words can also only
 <h3><b>Given:</b></h3>
 1. From Challenge 2: n e  <br/>
 2. Encrypted message: AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA <br/>
-3. Example Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
+3. Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
