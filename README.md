@@ -4,7 +4,7 @@
 - [Carina] (https://github.com/carinachu22)
 - [Vimal]
 - Siddharth Ganesh
-- [Akash]
+- [Akash] (https://github.com/akashcx)
 - [Yu Jie]
 
 ## Context 
