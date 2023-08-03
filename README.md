@@ -20,29 +20,29 @@ On the last day of school, Damian was mocking Anya for her ugly artwork that she
 
 Even more confused, Damian opened the letter to reveal some undecipherable words. Damian is asking you for help! Please go to challenge 1 to view the letter and help damian decipher what anya wrote. 
 ## Challenge 1
-<h3><b>Story:</b></h3>
-The letter contains three values on it. <br />
-1. Modified plaintext (m’) <br />
-2. Original cipher (c) <br />
-3. Modified cipher (c’) <br />
+### Story:
+The letter contains three values on it. 
+1. Modified plaintext (m’) 
+2. Original cipher (c) 
+3. Modified cipher (c’) 
 
-<h3><b>Task:</b></h3>
+### Task:
 Find the original plaintext (m)
 
-<h3><b>Given:</b></h3>
-1. Modified plaintext (m’)  = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Find the URL' <br/>
-2. Original cipher (c) = b'I\xbfm\rI\x9bY\x11\x13\xea\xa9\xff\x83\x81W\x04\xc7T\xb3\xf0\x974\x0fT\x1e\xef{\x86\xfdC\x02\xe9gv`\xb6\xd36' <br/>
-3. Modified cipher (c’) = b'!\xcb\x19}:\xa1v>c\x8b\xda\x8b\xe6\xe38e\xb50\x9d\x93\xf8\x1b\x7f-N\x9fw\xa2\xc9\x12\x1a\xc8len\x89\xf1\x1d' <br/>
+### Given:
+1. Modified plaintext (m’)  = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Find the URL'
+2. Original cipher (c) = b'I\xbfm\rI\x9bY\x11\x13\xea\xa9\xff\x83\x81W\x04\xc7T\xb3\xf0\x974\x0fT\x1e\xef{\x86\xfdC\x02\xe9gv`\xb6\xd36' 
+3. Modified cipher (c’) = b'!\xcb\x19}:\xa1v>c\x8b\xda\x8b\xe6\xe38e\xb50\x9d\x93\xf8\x1b\x7f-N\x9fw\xa2\xc9\x12\x1a\xc8len\x89\xf1\x1d' 
 
-<h3><b>Intended Solution:</b></h3>
+### Intended Solution:
 There are two possible solutions. 
 
-The first solution: <br />
-1. mask = c XOR c'<br />
+The first solution: 
+1. mask = c XOR c'
 2. original plaintext (m) = mask XOR m'
 
-The second solution: <br />
-1. k = m' XOR c'<br />
+The second solution: 
+1. k = m' XOR c'
 2. original plaintext (m) = c XOR k 
 
 Original plaintext (m) = https://pasteboard.co/pyPpJMZ58Ucv.jpg 
