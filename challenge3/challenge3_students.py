@@ -4,5 +4,7 @@
 
 
 encrypted_message = "AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA"
-encrypted_n = "DAHG"
-encrypted_e = "ABCG"
+encrypted_n = ""
+encrypted_e = ""
+
+# Find encrypted_n and encrypted_e from Challenge 2
