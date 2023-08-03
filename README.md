@@ -39,7 +39,7 @@ There are two possible solutions.
 
 The first solution: <br />
 1. mask = c XOR c'<br />
-2. original plaintext (m) = mask XOR modified plaintext (m') 
+2. original plaintext (m) = mask XOR m'
 
 The second solution: <br />
 1. k = m' XOR c'<br />
