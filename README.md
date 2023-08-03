@@ -35,8 +35,7 @@ Find the original plaintext (m)
 3. modified_cipher = b'!\xcb\x19}:\xa1v>c\x8b\xda\x8b\xe6\xe38e\xb50\x9d\x93\xf8\x1b\x7f-N\x9fw\xa2\xc9\x12\x1a\xc8len\x89\xf1\x1d' <br/>
 
 <h3><b>Intended Solution:</b></h3>
-There are two possible solutions.
-
+There are two possible solutions. <br />
 The first solution: <br />
 1. mask = c XOR c'<br />
 2. original plaintext (m) = mask XOR modified plaintext (m') <br />
