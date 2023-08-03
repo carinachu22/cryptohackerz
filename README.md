@@ -21,10 +21,10 @@ On the last day of school, Damian was mocking Anya for her ugly artwork that she
 Even more confused, Damian opened the letter to reveal some undecipherable words. Damian is asking you for help! Please go to challenge 1 to view the letter and help damian decipher what anya wrote. 
 ## Challenge 1
 <h3><b>Story:</b></h3>
-The letter contains three values on it. 
-1. Modified plaintext (m’) 
-2. Original cipher (c) 
-3. Modified cipher (c’)
+The letter contains three values on it. <br />
+1. Modified plaintext (m’) <br />
+2. Original cipher (c) <br />
+3. Modified cipher (c’) <br />
 
 <h3><b>Task:</b></h3>
 Find the original plaintext (m)
@@ -37,12 +37,12 @@ Find the original plaintext (m)
 <h3><b>Intended Solution:</b></h3>
 There are two possible solutions.
 
-The first solution:
-1. mask = c XOR c'
-2. original plaintext (m) = mask XOR modified plaintext (m')
-The second solution:
-1. k = m' XOR c'
-2. original plaintext (m) = c XOR k 
+The first solution: <br />
+1. mask = c XOR c'<br />
+2. original plaintext (m) = mask XOR modified plaintext (m') <br />
+The second solution: <br />
+1. k = m' XOR c'<br />
+2. original plaintext (m) = c XOR k <br />
 
 Original plaintext (m) = https://pasteboard.co/pyPpJMZ58Ucv.jpg 
 
