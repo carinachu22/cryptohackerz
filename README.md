@@ -3,7 +3,7 @@
 ## Members
 - [Carina] (https://github.com/carinachu22)
 - [Vimal]
-- Siddharth Ganesh
+- [Siddharth] (https://github.com/mrtlrt)
 - [Akash] (https://github.com/akashcx)
 - [Yu Jie]
 
