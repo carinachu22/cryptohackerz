@@ -2,7 +2,7 @@
 # CTF Challenge Proposal 
 ## Members
 - [Carina] (https://github.com/carinachu22)
-- [Vimal]
+- [Vimal] (https://github.com/usvimal)
 - [Siddharth] (https://github.com/mrtlrt)
 - [Akash] (https://github.com/akashcx)
 - [Yu Jie]
