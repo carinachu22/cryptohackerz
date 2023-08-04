@@ -12,7 +12,7 @@ This CTF challenge adapted the characters from Spy x Family anime. For those who
 For those who didn't, here are some key details of the main characters that will help with the challenges: 
 1. Anya is a 5 year old little girl who likes to watch a spy tv show, and will sometimes create ciphers.
 2. Damian is a boy in the same class as Anya and they are always bickering. 
-3. Anya has a fluffy white pet dog called _Bond_!
+3. Anya has a fluffy white pet dog called _Bond_
 We highly recommend you to go watch the anime too as it is so cute 
 
 ## Introduction 
@@ -49,7 +49,7 @@ Original plaintext (m) = https://pasteboard.co/pyPpJMZ58Ucv.jpg
 
 ## Challenge 2
 <h3><b>Story:</b></h3>
-Damian successfully solved the 1st challenge, but he is puzzled by its solution. He sees that there is a second challenge as well. Seems like the solution for Challenge 1 is linked to Challenge 2. He finds a message for Challenge 2 but there is ink on the key. Luckily, Damian knows that Anya cannot spell many things, he tries to find the key
+Damian successfully solved the 1st challenge, but he is puzzled by its solution. He sees that there is a second challenge as well. Seems like the solution for Challenge 1 is linked to Challenge 2. Luckily, Damian knows that Anya cannot spell many things, he tries to find the key. Hint: You can re-read the context portion for hints of the key
 
 <h3><b>Task:</b></h3>
 1. Figure out what kind of cipher it is <br />
