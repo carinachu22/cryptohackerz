@@ -63,9 +63,9 @@ Damian successfully solved the 1st challenge, but he is puzzled by its solution.
 4. Ciphertext: NCQXMIF GBVT HYDBQFBG DCQT <br />
 
 <h3><b>Intended Solution:</b></h3>
-1. Using cipher: V, figure out that it is a Vignere cipher
-2. Find the key for the cipher
-3. Use the key to decrypt the ciphertext
+1. Using cipher: V, figure out that it is a Vignere cipher <br />
+2. Find the key for the cipher <br />
+3. Use the key to decrypt the ciphertext <br />
 
 ## Challenge 3 
 <h3><b>Story:</b></h3>
