@@ -12,8 +12,8 @@ def prime_factors(n):
     return factors
 
 def decrypt(ciphertext, d, n):
-    text = [chr(pow(i, d, n)) for i in ciphertext]
-    return "".join(text)
+    plaintext = [chr(pow(i, d, n)) for i in ciphertext]
+    return "".join(plaintext)
 
 def solve(encrypted_message, encrypted_n, encrypted_e):
     mapping = {
@@ -51,9 +51,10 @@ def solve(encrypted_message, encrypted_n, encrypted_e):
     flag = decrypt(message, d, n)
     return flag
 
-encrypted_message = "AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA"
-encrypted_n = "DAHG"
-encrypted_e = "ABCG"
+if __name__ == "__main__":
+    encrypted_message = "AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA"
+    encrypted_n = "DAHG"
+    encrypted_e = "ABCG"
 
-rsa = solve(encrypted_message, encrypted_n, encrypted_e)
-print(rsa)
+    rsa = solve(encrypted_message, encrypted_n, encrypted_e)
+    print(rsa)
