@@ -78,3 +78,9 @@ Damian realizes that someone who can only spell a handful of words can also only
 1. From Challenge 2: n e  <br/>
 2. Encrypted message: AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA <br/>
 3. Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
+
+<h3><b>Intended Solution:</b></h3>
+1. Use the mapping and convert the given into numbers. <br/>
+2. From n use prime factorization to find the primes p and q (Hint: Anya can only count to 3 digits) <br/>
+3. Using p and q find z and d (private key) <br/>
+4. Use d to decrypt the message and find the flag. <br/>
