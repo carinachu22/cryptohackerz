@@ -56,14 +56,13 @@ Damian successfully solved the 1st challenge, but he is puzzled by its solution.
 3. Decrypt the ciphertext
 
 <h3><b>Given:</b></h3>
-1. Hint from Challenge 1 <br />
-2. Key: ??? <br />
-3. Cipher: V <br />
-4. Ciphertext: NCQXMIF GBVT HYDBQFBG DCQT <br />
+1. Key: Hint from Challenge 1 <br />
+2. Cipher: V <br />
+3. Ciphertext: NCQXMIF GBVT HYDBQFBG DCQT <br />
 
 <h3><b>Intended Solution:</b></h3>
 1. Using cipher: V, figure out that it is a Vignere cipher <br />
-2. Find the key for the cipher <br />
+2. Find the key for the cipher which is Bond. (The name of the dog) <br />
 3. Use the key to decrypt the ciphertext <br />
 
 ## Challenge 3 
