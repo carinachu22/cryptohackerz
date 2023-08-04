@@ -12,7 +12,7 @@ This CTF challenge adapted the characters from Spy x Family anime. For those who
 For those who didn't, here are some key details of the main characters that will help with the challenges: 
 1. Anya is a 5 year old little girl who likes to watch a spy tv show, and will sometimes create ciphers.
 2. Damian is a boy in the same class as Anya and they are always bickering. 
-3. Anya has a fluffy white pet dog called _Bond_
+3. Anya's favourite is her fluffy white pet dog called _Bond_. 
 We highly recommend you to go watch the anime too as it is so cute 
 
 ## Introduction 
