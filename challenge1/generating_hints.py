@@ -11,7 +11,7 @@ def XOR(a, b):
 original_plaintext = b"https://pasteboard.co/OLW6IDbNuqR1.png"
 modified_plaintext = b"Find the URL"
 
-# Randomly generated OTP
+# OTP
 OTP = bytearray(b'!\xcb\x19}:\xa1v>c\x8b\xda\x8b\xe6\xe38e\xb50\x9d\x93\xf8\x1b\x7f-N\x9f1\xcb\xa7v:\xbc\x04\x00N\xdc\xa3Q')
 
 # Generate c
