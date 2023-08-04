@@ -16,12 +16,14 @@ def decode_vignere_cipher(ciphertext, key):
 
 if __name__ == "__main__":
     ciphertext = "NCQXMIF GBVT HYDBQFBG DCQT"
+
+    # Try possible keys
     key = "ANYA"
     print(decode_vignere_cipher(ciphertext, key))
-
     key = "DOG"
     print(decode_vignere_cipher(ciphertext, key))
 
+    # Correct key that outputs readable text
     key = "BOND"
-    print(decode_vignere_cipher(ciphertext, key))
+    print("Correct solution: " + decode_vignere_cipher(ciphertext, key))
 
