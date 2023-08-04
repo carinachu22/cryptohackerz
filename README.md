@@ -49,7 +49,7 @@ Original plaintext (m) = https://pasteboard.co/pyPpJMZ58Ucv.jpg
 
 ## Challenge 2
 <h3><b>Story:</b></h3>
-Damian successfully solved the 1st challenge, but he is puzzled by its solution. He sees that there is a second challenge as well. Seems like the solution for Challenge 1 is linked to Challenge 2. Luckily, Damian knows that Anya cannot spell many things, he tries to find the key. Hint: You can re-read the context portion for hints of the key
+Damian successfully solved the 1st challenge, but he is puzzled by its solution. It seems like the solution for Challenge 1 is linked to Challenge 2. Luckily, Damian knows that Anya cannot spell many things, usually <= 4-lettered words. Damian needs your help for challenge 2! Hint: You can re-read the context portion for hints of the key.
 
 <h3><b>Task:</b></h3>
 1. Figure out what kind of cipher it is <br />
