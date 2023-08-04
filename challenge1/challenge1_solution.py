@@ -13,14 +13,22 @@ def XOR(a, b):
         r += (x ^ y).to_bytes(1, "big")
     return r
 
-# Solution 1 
-mask = XOR(original_cipher, modified_cipher)
-original_plaintext_1 = XOR(mask, modified_plaintext)
-original_plaintext_1 = original_plaintext_1.decode()
-print(original_plaintext_1)
+def solution1():
+    mask = XOR(original_cipher, modified_cipher)
+    original_plaintext_1 = XOR(mask, modified_plaintext)
+    original_plaintext_1 = original_plaintext_1.decode()
+    return original_plaintext_1
 
-# Solution 2 
-k = XOR(modified_plaintext, modified_cipher)
-original_plaintext_2 = XOR(original_cipher, k)
-original_plaintext_2 = original_plaintext_2.decode()
-print(original_plaintext_2)
+def solution2():
+    k = XOR(modified_plaintext, modified_cipher)
+    original_plaintext_2 = XOR(original_cipher, k)
+    original_plaintext_2 = original_plaintext_2.decode()
+    return original_plaintext_2
+
+if __name__ == "__main__":
+    # Solution 1
+    print("Solution 1 returns ", solution1())    
+
+    # Solution 2 
+    print("Solution 2 returns ", solution1())    
+    
