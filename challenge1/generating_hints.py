@@ -7,21 +7,12 @@ def XOR(a, b):
         r += (x ^ y).to_bytes(1, "big")
     return r
 
-
-def gen_OTP(length):
-    return bytearray(os.urandom(length))
-
-
-def decrypt(cipher, OTP):
-    """Decryption also using XOR, do not modify"""
-    return XOR(cipher, OTP)
-
 # Original plaintext and modified plaintext 
-original_plaintext = b"https://pasteboard.co/pyPpJMZ58Ucv.jpg"
+original_plaintext = b"https://pasteboard.co/OLW6IDbNuqR1.png"
 modified_plaintext = b"Find the URL"
 
 # Randomly generated OTP
-OTP = gen_OTP(length=len(original_plaintext))
+OTP = bytearray(b'!\xcb\x19}:\xa1v>c\x8b\xda\x8b\xe6\xe38e\xb50\x9d\x93\xf8\x1b\x7f-N\x9f1\xcb\xa7v:\xbc\x04\x00N\xdc\xa3Q')
 
 # Generate c
 original_cipher = XOR(original_plaintext, OTP)
