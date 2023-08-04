@@ -30,5 +30,5 @@ if __name__ == "__main__":
     print("Solution 1 returns ", solution1())    
 
     # Solution 2 
-    print("Solution 2 returns ", solution1())    
+    print("Solution 2 returns ", solution2())    
     
