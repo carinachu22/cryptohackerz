@@ -1,5 +1,5 @@
 # Foundations of Cyber Security 2023 
-# CTF Challenge Proposal 
+# CTF Challenge Proposal (Team: Cryptohackerz)
 ## Members
 - [Carina] (https://github.com/carinachu22)
 - [Vimal] (https://github.com/usvimal)
