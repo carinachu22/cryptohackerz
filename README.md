@@ -47,15 +47,15 @@ The second solution:
 Original plaintext (m) = https://pasteboard.co/OLW6IDbNuqR1.png 
 
 ## Challenge 2
-<h3><b>Story:</b></h3>
+### Story:
 Damian successfully solved the 1st challenge, but he is puzzled by its solution. It seems like the solution for Challenge 1 is linked to Challenge 2. Luckily, Damian knows that Anya cannot spell many things, usually <= 4-lettered words. Damian needs your help for challenge 2! Hint: You can re-read the context portion for hints of the key.
 
-<h3><b>Task:</b></h3>
+### Task:
 1. Figure out what kind of cipher it is <br />
 2. Find the key <br />
 3. Decrypt the ciphertext
 
-<h3><b>Given:</b></h3>
+### Intended Solution:
 1. Key: Hint from Challenge 1 <br />
 2. Cipher: V <br />
 3. Ciphertext: NCQXMIF GBVT HYDBQFBG DCQT <br />
@@ -66,22 +66,22 @@ Damian successfully solved the 1st challenge, but he is puzzled by its solution.
 3. Use the key to decrypt the ciphertext <br />
 
 ## Challenge 3 
-<h3><b>Story:</b></h3>
+### Story:
 Woohoo! Damian has successfully solved the second challenge as well…only to find out there’s a third challenge? He finds that the solution from the second challenge is an encrypted message. This has to be the last challenge, hopefully. 
 
 Damian realizes that someone who can only spell a handful of words can also only count until 3 digits. And that they wouldn’t be proficient with crafting RSA encryption. With this knowledge, can you crack the private key d?
 
 
-<h3><b>Task:</b></h3>
+### Task:
 1. Find the private key d. <br />
 2. Using the private key d, find the flag (which is of the format fcs{xxxxxx})<br />
 
-<h3><b>Given:</b></h3>
+### Given:
 1. From Challenge 2: n e  <br/>
 2. Encrypted message: AABI BAFI BE ACHC IFH CEBG CIBA CI AHAX HGE BHED IAD AHAX AFHA AFBF AXCE DGB CIBA AXCE CAFD ADA <br/>
 3. Mapping: A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | F: 6 | G: 7 | H: 8 | I: 9 | X: 0 <br/>
 
-<h3><b>Intended Solution:</b></h3>
+### Intended Solution:
 1. Use the mapping and convert the given into numbers. <br/>
 2. From n use prime factorization to find the primes p and q (Hint: Anya can only count to 3 digits) <br/>
 3. Using p and q find z and d (private key) <br/>
